@@ -13,7 +13,7 @@ let risultato = "";
 // Chiediamo a User numero chilometri che vuole percorrere
 const userKm = parseInt(prompt("Quanti chilometri vorresti percorrere?"));
 
-console.log("Numero chilometri: ", userKm, 'km');
+console.log("Numero chilometri scelti: ", userKm, 'km');
 
 // Chiediamo a User la sua età
 const userEta = parseInt(prompt("Quanti anni hai?"));
@@ -45,3 +45,5 @@ console.log(`Il prezzo del biglietto con eventuale sconto applicato è quindi di
 
 // Output prezzo finale con massimo due decimali
 document.getElementById("mio_id").innerHTML = `Cifra finale da corrispondere per il biglietto: ${risultato.toFixed(2)}€`;
+
+document.getElementById("tuo_id").innerHTML = "Grazie e buon viaggio!";

@@ -1,0 +1,17 @@
+/* Stili Generali */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+/* Stili H1 */
+#mio_id {
+    text-align: center;
+    margin-top: 200px;
+}
